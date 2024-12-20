@@ -1,0 +1,81 @@
+name: napoleon.wuckert
+description: access
+version: 0.0.1
+author: t9pcmukr.lnq9plm6@35mwfidt.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-12-20 20:29:32'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: null
+    author: t9pcmukr.lnq9plm6@35mwfidt.com
+    files:
+    - model.sql
+    - .prophecy/ide/model.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-12-20 20:29:32'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: snapshot desc
+    author: t9pcmukr.lnq9plm6@35mwfidt.com
+    files:
+    - snapshot.sql
+    - .prophecy/ide/snapshot.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-12-20 20:29:32'
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: t9pcmukr.lnq9plm6@35mwfidt.com
+    files:
+    - macros.sql
+    - .prophecy/ide/macros.json
+    createdAt: '2024-12-20 20:29:32'
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: t9pcmukr.lnq9plm6@35mwfidt.com
+  createdAt: '2024-12-20 20:29:32'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
